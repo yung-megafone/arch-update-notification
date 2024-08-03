@@ -35,3 +35,7 @@ You just need to change name of your terminal currently it's set to `xfce4-termi
 
 # Support
 If you found this useful or want to share opinions about it you can contact me on [@fellchase](https://twitter.com/fellchase) you can also buy me a coffee so I don't fall asleep while studying via [paypal.me/fellchase](https://www.paypal.me/fellchase)
+
+
+# Notes from yung-megafone
+none.
