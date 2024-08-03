@@ -59,16 +59,20 @@ try:
     if nsystem_updates != 0:
         if nsystem_updates == 1:
             sys_string = "1 system update available"
-        else:
+        elif nsystem_updates >= 2 and nsystem_updates <= 15:
             sys_string = str(nsystem_updates) + " system updates available"
+        else:
+            sys_string = "Update yo damn system bro you have " + str(nsystem_updates) + " updates!"
     else:
         sys_string = ''
 
     if naur_updates != 0:
         if naur_updates == 1:
             aur_string = "1 AUR update available"
-        else:
+        elif naur_updates >= 2 and naur_updatres <= 15:
             aur_string = str(naur_updates) + " AUR updates available"
+        else:
+            aur_string = "YOU HAVE " + str(naur_updates) + " AUR UPDATES AVAILABLE DUDE WTF!"
     else:
         aur_string = ''
 
